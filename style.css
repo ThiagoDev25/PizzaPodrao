@@ -138,3 +138,145 @@ html {
     justify-content: space-between;
     
 }
+
+/* section about-us */
+
+.about-us {
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155, 155, 155)
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.content-about p {
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    width: 600px;
+}
+
+.menu {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(12, 12, 12, 0.8);
+}
+
+.menu h2 {
+    font-size: 5rem;
+    color: #e6e6e6;
+    text-transform: uppercase;
+
+}
+
+.items-menu {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.items-menu .info {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.items-menu .info h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+
+}
+
+.items-menu .info h4 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+
+.items-menu .info span {
+    font-size: 1.6rem;
+    color: #585858;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+
+}
+
+.items-menu div {
+    background-color: #5e5252;
+    box-shadow: 0px 0px 4px 1px;
+
+}
+
+.items-menu .info .order {
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #A2A415;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    transition: all 200ms ease-in;
+}
+
+.items-menu .info .order:hover {
+    background-color: #5e5252;
+    color: white;
+    
+}
+
+
+
+.items-menu img {
+    width: 100%;
+    height: 200px;
+}
