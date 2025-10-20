@@ -89,3 +89,52 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+.first-section .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1 {
+    color: #ffc506;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.first-section h2 {
+    color: #A2A415;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.btn button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: green;
+    border-radius: 10px;
+    color: rgb(221, 125, 0);
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+}
+
+.btn button:hover {
+    border: 1px solid #A2A415;
+    background-color: transparent;
+    color: #A2A415;
+}
+
+.btn {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    
+}
